@@ -1,0 +1,11 @@
+{
+  "name": "proyectoser",
+  "version": "1.0.0",
+  "description": "proyecto de sitio de noticias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guido",
+  "license": "ISC"
+}
