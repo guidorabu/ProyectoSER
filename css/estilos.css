@@ -73,13 +73,13 @@ body {
 
   /* Estilos para la página de noticias */
 
-.Pagina-Noticas h1 {
+.Pagina-Noticias h1 {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.Pagina-Noticas hr {
+.Pagina-Noticias hr {
   margin: 20px 0;
 }
 
@@ -104,6 +104,23 @@ body {
 .noticias-items .fecha {
   font-size: 14px;
   color: #888;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la página de galería */
+.gallery-page h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.gallery-page hr {
+  margin: 20px 0;
+}
+
+.gallery-page img {
+  width: 100%;
+  max-width: 300px;
   margin-bottom: 10px;
 }
   
