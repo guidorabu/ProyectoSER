@@ -4,7 +4,7 @@ $font-weight-seccion: bold;
 $font-size-titulo-portada: 48px;
 $font-size-parrafo-portada: 24px;
 $font-size-titulos-noticias: 24px;
-$font-size-parrafos-noticia: 16px;
+$font-size-parrafos-noticias: 16px;
 $font-size-categoria-noticas: 14px;
 $font-size-fecha-noticias: 14px;
 $contenedor-flexible: flex;
@@ -51,6 +51,7 @@ header {
   hr {
     margin: $margin-separadores;
   }
+  
   /* Estilos para las noticias secundarias */
   .Noticias-secundarias .col-md-4 {
     display: $contenedor-flexible;
@@ -67,7 +68,7 @@ header {
         margin-bottom: 5px;
         }
     p {
-            font-size: $font-size-parrafos-noticia;
+            font-size: $font-size-parrafos-noticias;
             margin-bottom: 5px;
           }
    
@@ -106,7 +107,7 @@ header {
   }
 }
 /* Estilos para la página de galería */
-.gallery-page {
+.Pagina-Galeria{
     h1 {
   font-size: $font-size-seccion;
   font-weight: $font-weight-seccion;
@@ -142,7 +143,7 @@ header {
         margin-bottom: 10px;
       }
     p {
-        font-size: $font-size-parrafo-portada;
+        font-size: $font-size-parrafos-noticias;
     }
     }
 
