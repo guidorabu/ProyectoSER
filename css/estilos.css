@@ -107,6 +107,28 @@ hr {
   margin-bottom: 10px;
 }
 
+/* Estilos para la página "Nosotros" */
+.Nosotros-Pagina h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Nosotros-Pagina hr {
+  margin: 20px 0;
+}
+.Nosotros-Pagina img {
+  width: 100%;
+  max-width: 415px;
+  border-radius: 15px;
+}
+.Nosotros-Pagina h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.Nosotros-Pagina p {
+  font-size: 24px;
+}
+
 /* Estilos para el footer */
 .footer {
   background-color: #333;
@@ -114,31 +136,22 @@ hr {
   padding: 20px 0;
   margin-top: 20px;
 }
-
 .footer h4 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 .footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-.footer ul li {
+.footer li {
   margin-bottom: 5px;
 }
-
-.footer ul li a {
+.footer a {
   color: #fff;
   text-decoration: none;
 }
-
-.footer ul li a:hover {
-  text-decoration: underline;
-}
-
 .footer p {
   margin-top: 10px;
 }
