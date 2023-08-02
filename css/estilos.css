@@ -6,7 +6,6 @@ body {
 header {
   margin-bottom: 20px;
 }
-
 header .navbar-brand img {
   max-width: 50px;
 }
@@ -16,32 +15,24 @@ header .navbar-brand img {
   background-color: #f9f9f9;
   padding: 20px 0;
 }
-
 .Noticias-principales h1 {
   font-size: 48px;
   margin-bottom: 10px;
 }
-
 .Noticias-principales p {
   font-size: 24px;
   margin-bottom: 20px;
 }
-
 .Noticias-principales .col-lg-8 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .Noticias-principales img {
   width: 100%;
   max-width: 415px;
   border-radius: 15px;
-}
-
-hr {
-  margin: 20px 0;
 }
 
 /* Estilos para las noticias secundarias */
@@ -50,19 +41,16 @@ hr {
   flex-direction: column;
   align-items: center;
 }
-
 .Noticias-secundarias .col-md-4 img {
   width: 100%;
   max-width: 415px;
   margin-bottom: 10px;
   border-radius: 15px;
 }
-
 .Noticias-secundarias .col-md-4 h2 {
   font-size: 24px;
   margin-bottom: 5px;
 }
-
 .Noticias-secundarias .col-md-4 p {
   font-size: 16px;
   margin-bottom: 5px;
@@ -74,7 +62,6 @@ hr {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .Pagina-Noticias hr {
   margin: 20px 0;
 }
@@ -85,18 +72,15 @@ hr {
   margin-bottom: 10px;
   border-radius: 15px;
 }
-
 .noticias-items .categoria {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 .noticias-items h2 {
   font-size: 24px;
   margin-bottom: 5px;
 }
-
 .noticias-items .fecha {
   font-size: 14px;
   color: #888;
@@ -109,11 +93,9 @@ hr {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .Pagina-Galeria hr {
   margin: 20px 0;
 }
-
 .Pagina-Galeria img {
   width: 100%;
   width: 300px;
@@ -127,22 +109,18 @@ hr {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .Nosotros-Pagina hr {
   margin: 20px 0;
 }
-
 .Nosotros-Pagina img {
   width: 100%;
   max-width: 415px;
   border-radius: 15px;
 }
-
 .Nosotros-Pagina h2 {
   font-size: 48px;
   margin-bottom: 10px;
 }
-
 .Nosotros-Pagina p {
   font-size: 16px;
 }
@@ -154,29 +132,24 @@ hr {
   padding: 20px 0;
   margin-top: 20px;
 }
-
 .footer h4 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 .footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .footer li {
   margin-bottom: 5px;
 }
-
 .footer a {
   color: #fff;
   text-decoration: none;
 }
-
 .footer p {
   margin-top: 10px;
-} 
+}
 
 /*# sourceMappingURL=estilos.css.map */

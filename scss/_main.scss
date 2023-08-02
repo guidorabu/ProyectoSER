@@ -1,0 +1,147 @@
+/* Estilos para la noticia principal */
+.Noticias-principales {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    h1 {
+    font-size: $font-size-titulo-portada;
+    margin-bottom: 10px;
+    }
+    p {
+        font-size: $font-size-parrafo-portada;
+        margin-bottom: 20px;
+    }
+    .col-lg-8 {
+        display: $contenedor-flexible;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    img {
+        width: 100%;
+        max-width: 415px;
+        border-radius: 15px;
+      }
+  }
+  
+  
+  /* Estilos para las noticias secundarias */
+  .Noticias-secundarias .col-md-4 {
+    display: $contenedor-flexible;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 100%;
+        max-width: 415px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        }
+    h2 {
+        font-size: $font-size-titulos-noticias;
+        margin-bottom: 5px;
+        }
+    p {
+            font-size: $font-size-parrafos-noticias;
+            margin-bottom: 5px;
+          }
+   
+  }
+  /* Estilos para la página de noticias */
+.Pagina-Noticias {
+    h1 {
+  font-size: $font-size-seccion;
+  font-weight: $font-weight-seccion;
+  margin-bottom: 20px;
+  }
+    hr {
+    margin: $margin-separadores;
+  } 
+}
+.noticias-items {
+    img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  }
+  .categoria {
+    font-size: $font-size-categoria-noticas;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+     h2 {
+    font-size: $font-size-titulos-noticias;
+    margin-bottom: 5px;
+  }
+    .fecha {
+    font-size: $font-size-fecha-noticias;
+    color: #888;
+    margin-bottom: 10px;
+  }
+}
+/* Estilos para la página de galería */
+.Pagina-Galeria{
+    h1 {
+  font-size: $font-size-seccion;
+  font-weight: $font-weight-seccion;
+  margin-bottom: 20px;
+        }
+    hr {
+    margin: 20px 0;
+    }
+    img {
+        width: 100%;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 10px;
+      }
+} 
+/* Estilos para la página "Nosotros" */
+.Nosotros-Pagina {
+    h1 {
+    font-size: $font-size-seccion;
+    font-weight: $font-weight-seccion;
+    margin-bottom: 20px;
+     }
+    hr {
+    margin: $margin-separadores;
+     }
+     img {
+        width: 100%;
+        max-width: 415px;
+        border-radius: 15px;
+      }
+    h2 {
+        font-size: $font-size-titulo-portada;
+        margin-bottom: 10px;
+      }
+    p {
+        font-size: $font-size-parrafos-noticias;
+    }
+    }
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-top:20px;
+    h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+        a {
+        color: #fff;
+        text-decoration: none;
+        }
+    p  {
+         margin-top: 10px;
+     } 
+}
